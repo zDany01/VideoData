@@ -1,14 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.IO;
+﻿using Accord.Video.FFMPEG;
+using System;
 using System.Drawing;
-using System.Runtime.InteropServices;
-using Accord.Video.FFMPEG;
-using Accord.Diagnostics;
-using System.Diagnostics;
+using System.IO;
 
 namespace Encoder
 {
@@ -34,7 +27,7 @@ namespace Encoder
             return frame;
         }
 
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             byte[] fileToConvert = File.ReadAllBytes(@"C:\users\danyb\Desktop\file.pdf");
             long frameToFill = VIDEO_FRAME_RATE - (fileToConvert.LongLength % VIDEO_FRAME_RATE);

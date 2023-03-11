@@ -18,12 +18,20 @@ namespace Decoder
             VideoFileReader video = new VideoFileReader();
             video.Open(@"C:\Users\danyb\Desktop\video.mp4");
             int lastFrame = 0;
-            for (int i = 0; i < video.FrameCount; i++) if (Math.Round(video.ReadVideoFrame().GetPixel(319, 239).GetBrightness(), 0) == 1) lastFrame++;
+            for (int i = 0; i < video.FrameCount; i++)
+            {
+                Bitmap tempFrame = video.ReadVideoFrame();
+                if (Math.Round(tempFrame.GetPixel(319, 239).GetBrightness(), 0) == 1) lastFrame++;
+                tempFrame.Dispose();
+
+            }
             byte[] convertedFile = new byte[lastFrame];
             for (int i = 0; i < lastFrame; i++)
             {
-                convertedFile[i] = ObtainValue(video.ReadVideoFrame(i));
+                Bitmap frame = video.ReadVideoFrame(i);
+                convertedFile[i] = ObtainValue(frame);
                 Console.WriteLine($"Frame {i}: {convertedFile[i]}");
+                frame.Dispose();
             }
             File.WriteAllBytes("C:\\Users\\danyb\\Desktop\\output.pdf", convertedFile);
             video.Close();
