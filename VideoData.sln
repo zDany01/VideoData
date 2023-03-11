@@ -39,8 +39,8 @@ Global
 		{C21CFF6D-6064-4C96-93E3-3E952799C33D}.Debug|x64.Build.0 = Debug|x64
 		{C21CFF6D-6064-4C96-93E3-3E952799C33D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C21CFF6D-6064-4C96-93E3-3E952799C33D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C21CFF6D-6064-4C96-93E3-3E952799C33D}.Release|x64.ActiveCfg = Release|Any CPU
-		{C21CFF6D-6064-4C96-93E3-3E952799C33D}.Release|x64.Build.0 = Release|Any CPU
+		{C21CFF6D-6064-4C96-93E3-3E952799C33D}.Release|x64.ActiveCfg = Release|x64
+		{C21CFF6D-6064-4C96-93E3-3E952799C33D}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
