@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Encoder", "Encoder\Encoder.csproj", "{5C82928F-02FE-4F69-9A34-724CED96A70C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GiordanoDecoder", "GiordanoDecoder\GiordanoDecoder.csproj", "{944F78FE-3AA4-4CEB-BC48-5279CE14FBE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoSplitterGUI", "VideoSplitterGUI\VideoSplitterGUI.csproj", "{C21CFF6D-6064-4C96-93E3-3E952799C33D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5C82928F-02FE-4F69-9A34-724CED96A70C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C82928F-02FE-4F69-9A34-724CED96A70C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C82928F-02FE-4F69-9A34-724CED96A70C}.Debug|x64.ActiveCfg = Debug|x64
+		{5C82928F-02FE-4F69-9A34-724CED96A70C}.Debug|x64.Build.0 = Debug|x64
+		{5C82928F-02FE-4F69-9A34-724CED96A70C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C82928F-02FE-4F69-9A34-724CED96A70C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C82928F-02FE-4F69-9A34-724CED96A70C}.Release|x64.ActiveCfg = Release|x64
+		{5C82928F-02FE-4F69-9A34-724CED96A70C}.Release|x64.Build.0 = Release|x64
+		{944F78FE-3AA4-4CEB-BC48-5279CE14FBE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{944F78FE-3AA4-4CEB-BC48-5279CE14FBE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{944F78FE-3AA4-4CEB-BC48-5279CE14FBE7}.Debug|x64.ActiveCfg = Debug|x64
+		{944F78FE-3AA4-4CEB-BC48-5279CE14FBE7}.Debug|x64.Build.0 = Debug|x64
+		{944F78FE-3AA4-4CEB-BC48-5279CE14FBE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{944F78FE-3AA4-4CEB-BC48-5279CE14FBE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{944F78FE-3AA4-4CEB-BC48-5279CE14FBE7}.Release|x64.ActiveCfg = Release|x64
+		{944F78FE-3AA4-4CEB-BC48-5279CE14FBE7}.Release|x64.Build.0 = Release|x64
+		{C21CFF6D-6064-4C96-93E3-3E952799C33D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C21CFF6D-6064-4C96-93E3-3E952799C33D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C21CFF6D-6064-4C96-93E3-3E952799C33D}.Debug|x64.ActiveCfg = Debug|x64
+		{C21CFF6D-6064-4C96-93E3-3E952799C33D}.Debug|x64.Build.0 = Debug|x64
+		{C21CFF6D-6064-4C96-93E3-3E952799C33D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C21CFF6D-6064-4C96-93E3-3E952799C33D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C21CFF6D-6064-4C96-93E3-3E952799C33D}.Release|x64.ActiveCfg = Release|Any CPU
+		{C21CFF6D-6064-4C96-93E3-3E952799C33D}.Release|x64.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CFF014D7-6727-4BDC-BC7F-613D6F2A3AEC}
+	EndGlobalSection
+EndGlobal
